@@ -47,7 +47,7 @@
         request.end();
     });
 
-    app.post("/failure", function(req,res){
+    app.get("/failure", function(req,res){
         res.redirect("/");
       });
 
