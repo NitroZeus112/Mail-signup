@@ -4,7 +4,7 @@
     const https = require("https");
     const app = express();
 
-    app.use(express.static("Public"));
+    app.use(express.static("Public/"));
     app.use(express.urlencoded({extended: true}));
 
     app.get("/", function(req,res) {
